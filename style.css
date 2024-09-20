@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(254,223,229);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+#apply-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(237,3,49) ;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(232, 231, 231);
+}
+#logo{
+    height: 50px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+#refer-btn,#sign-up{
+    background-color: rgb(230, 254, 255);
+    padding:15px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    border:none
+}
+#sign-up{
+    border: 1px solid rgb(237,3,49);
+    color: rgb(237,3,49);
+    padding: 14px;
+    background-color: white;
+}
+.main_part{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+.text_part h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(110, 113, 204);
+}
+.text_part h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.text_part button{
+    margin-top: 20px;
+    width: 20%;
+}
+.video_part video{
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(52, 110, 227);
+    margin-top: 30px;
+    text-align: center  ;
+    padding: 35px 0px 20px 0px;
+}
+footer h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+}
